@@ -1,0 +1,48 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+body{
+    font-family: Jose;
+
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-family: Josebold;
+    font-weight: bold;
+}
+.brand-name{
+    color: white;
+    margin-top: -6px;
+}
+
+.btn-login{
+    background-color: darkslateblue;
+    color:white;
+    border-color: white;
+    box-shadow: -2px 1px 2px white;
+}
+.btn-login:hover{
+    background-color: blue;
+    color:white;
+    border-color: white;
+}
